@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SideMenu = ({selectDisplay}) => {
   return (
@@ -12,6 +13,7 @@ const SideMenu = ({selectDisplay}) => {
       <div className='side-menu-item' onClick={()=>selectDisplay('interests')}>
         Interests
       </div>
+      <Link className='side-menu-item' to='/signout'>Logout</Link>
     </div>
   )
 }

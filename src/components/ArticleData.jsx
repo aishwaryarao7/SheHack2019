@@ -12,7 +12,7 @@ const renderArticles = (data) => {
     return (
       <div onClick={()=>window.open(article.url)}>
         <div style={{ flex: 10 }} key={index} className='article-list-item'>
-          <img src={article.image_url} style={{ height: 400, width: 700 }} />
+          <img className='article-image' src={article.image_url} />
           <div className='article-title'>
             {article.title}
           </div>

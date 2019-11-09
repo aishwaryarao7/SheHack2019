@@ -28,6 +28,10 @@ const renderData = (mode, data) => {
       return (
         <ArticleData data={data} />
       )
+    case 'interests':
+      return (
+        <ArticleData data={data} />
+      )
     default: return null;
   }
 }
@@ -35,7 +39,7 @@ const renderData = (mode, data) => {
 const Display = ({data, mode, selectDisplay}) => {
   return (
     <div className='display' style={{ display: 'flex', flexDirection: 'row' }}>
-      <div style={{ flex: 2 }}>
+      <div style={{ flex: 2 }} className='side-menu-bar'>
         <SideMenu selectDisplay={selectDisplay} />
       </div>
       {renderData(mode, data)}
