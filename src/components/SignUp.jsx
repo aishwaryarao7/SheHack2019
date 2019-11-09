@@ -6,7 +6,7 @@ const SignUp = () => {
     <div className='sign-up'>
       <div>
         <div>
-          <img style={{ height: 40, width: 45, paddingTop: 10 }} src={logo} />
+          <img alt='' style={{ height: 40, width: 45, paddingTop: 10 }} src={logo} />
         </div>
         <div>
           Sign Up

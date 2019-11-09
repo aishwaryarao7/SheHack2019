@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import ArticleData from './ArticleData';
 import SideMenu from './SideMenu';
+import Meetup from './Meetup';
 
 const renderData = (mode, data) => {
   switch(mode) {
@@ -31,6 +32,10 @@ const renderData = (mode, data) => {
     case 'interests':
       return (
         <ArticleData data={data} />
+      )
+    case 'meetup':
+      return (
+        <Meetup />
       )
     default: return null;
   }

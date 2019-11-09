@@ -13,6 +13,9 @@ const SideMenu = ({selectDisplay}) => {
       <div className='side-menu-item' onClick={()=>selectDisplay('interests')}>
         Interests
       </div>
+      <div className='side-menu-item' onClick={()=>selectDisplay('meetup')}>
+        Meetups near me
+      </div>
       <Link className='side-menu-item' to='/signout'>Logout</Link>
     </div>
   )
