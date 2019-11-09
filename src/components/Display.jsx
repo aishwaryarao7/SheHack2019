@@ -10,23 +10,23 @@ const renderData = (mode, data) => {
       )
     case 'explore':
       return (
-        <div>Explore</div>
+        <ArticleData data={data} />
       )
     case 'discover':
       return (
-        <div>Discover</div>
+        <ArticleData data={data} />
       )
     case 'account':
       return (
-        <div>account</div>
+        <ArticleData data={data} />
       )
     case 'saved':
       return (
-        <div>saved</div>
+        <ArticleData data={data} />
       )
     case 'interests':
       return (
-        <div>interests</div>
+        <ArticleData data={data} />
       )
     default: return null;
   }
