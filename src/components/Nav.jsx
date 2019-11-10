@@ -20,9 +20,9 @@ const Nav = ({toggleDropdown, selectDisplay}) => {
         </div>
         <div
           className='nav-options nav-discover'
-          onClick={()=>selectDisplay('discover')}
+          onClick={()=>selectDisplay('podcast')}
         >
-          Discover
+          Podcasts
         </div>
         <div
           className='nav-options nav-explore'

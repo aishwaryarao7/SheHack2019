@@ -230,3 +230,16 @@ input {
     display: none !important;
   }
 }
+
+.account {
+  flex: 8;
+  text-align: left;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.account-item {
+  padding: 10px;
+  margin: 10px 0px;
+  margin-left: 10px;
+}

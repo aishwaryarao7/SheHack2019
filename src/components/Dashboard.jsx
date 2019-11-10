@@ -20,7 +20,7 @@ const Dashboard = () => {
         <div className='dropdown-options'>
           <div className='dropdown-option' onClick={()=>{setDisplay('account')}}>Account</div>
           <div className='dropdown-option' onClick={()=>{setDisplay('interests')}}>Interests</div>
-          <div className='dropdown-option' onClick={()=>{setDisplay('explore')}}>Explore</div>
+          <div className='dropdown-option' onClick={()=>{setDisplay('podcast')}}>Podcasts</div>
           <Link className='dropdown-option' to='/signout'>Logout</Link>
         </div>
       }
