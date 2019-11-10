@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/womenintech/static/css/main.7330c416.chunk.css",
-    "main.js": "/womenintech/static/js/main.fe595e8b.chunk.js",
-    "main.js.map": "/womenintech/static/js/main.fe595e8b.chunk.js.map",
-    "runtime-main.js": "/womenintech/static/js/runtime-main.b95fc16f.js",
-    "runtime-main.js.map": "/womenintech/static/js/runtime-main.b95fc16f.js.map",
-    "static/js/2.2ac40faa.chunk.js": "/womenintech/static/js/2.2ac40faa.chunk.js",
-    "static/js/2.2ac40faa.chunk.js.map": "/womenintech/static/js/2.2ac40faa.chunk.js.map",
-    "index.html": "/womenintech/index.html",
-    "precache-manifest.c1981c64e6e7f908363da2921ce87500.js": "/womenintech/precache-manifest.c1981c64e6e7f908363da2921ce87500.js",
-    "service-worker.js": "/womenintech/service-worker.js",
-    "static/css/main.7330c416.chunk.css.map": "/womenintech/static/css/main.7330c416.chunk.css.map",
-    "static/media/shenews.png": "/womenintech/static/media/shenews.aeec8eea.png"
+    "main.css": "/SheHack2019/static/css/main.7330c416.chunk.css",
+    "main.js": "/SheHack2019/static/js/main.fe595e8b.chunk.js",
+    "main.js.map": "/SheHack2019/static/js/main.fe595e8b.chunk.js.map",
+    "runtime-main.js": "/SheHack2019/static/js/runtime-main.4408b71e.js",
+    "runtime-main.js.map": "/SheHack2019/static/js/runtime-main.4408b71e.js.map",
+    "static/js/2.2ac40faa.chunk.js": "/SheHack2019/static/js/2.2ac40faa.chunk.js",
+    "static/js/2.2ac40faa.chunk.js.map": "/SheHack2019/static/js/2.2ac40faa.chunk.js.map",
+    "index.html": "/SheHack2019/index.html",
+    "precache-manifest.b83ec8bb22ad0eed46e02bb5ea450649.js": "/SheHack2019/precache-manifest.b83ec8bb22ad0eed46e02bb5ea450649.js",
+    "service-worker.js": "/SheHack2019/service-worker.js",
+    "static/css/main.7330c416.chunk.css.map": "/SheHack2019/static/css/main.7330c416.chunk.css.map",
+    "static/media/shenews.png": "/SheHack2019/static/media/shenews.aeec8eea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b95fc16f.js",
+    "static/js/runtime-main.4408b71e.js",
     "static/js/2.2ac40faa.chunk.js",
     "static/css/main.7330c416.chunk.css",
     "static/js/main.fe595e8b.chunk.js"
